@@ -1,0 +1,51 @@
+.app {
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+h1 {
+    margin-bottom: 33px;
+}
+  
+.CPUs {
+    /* display: flex; */
+    gap: 10px;
+}
+
+.cpuItem {
+    flex: 1;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.delete {
+    border: 1px solid gray;
+    color: white;
+}
+        
+.update {
+    border: 1px solid gray;
+    color: rgb(139, 139, 234);
+}
+    
+.form {
+    display: flex;
+    flex-direction: column;
+}
+      
+button {
+    border: none;
+    padding: 10px;
+    background-color: white;
+    background-color: rgb(18, 202, 80);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
